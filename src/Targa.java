@@ -24,9 +24,9 @@ public class Targa
     {
         return super.hashCode();
     }
-    @Override
+
     public String toString()
     {
-        return super.toString();
+        return "Targa: " +  numero;
     }
 }

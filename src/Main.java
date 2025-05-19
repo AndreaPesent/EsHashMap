@@ -12,9 +12,11 @@ public class Main
         Proprietario p1 = new Proprietario("Luca","Rossi","RHCY4563");
         Proprietario p2 = new Proprietario("Mario", "Verdi","EUCI2342");
         Proprietario p3 = new Proprietario("Anna", "Bianchi","ZPGJ9274");
+        Proprietario p4 = new Proprietario("Marco" ,"Neri", "AIFK3454");
         hashmap.put(t1, p1);
         hashmap.put(t2, p2);
         hashmap.put(t3, p3);
-        System.out.println();
+        hashmap.put(t3, p4);
+        System.out.println(hashmap);
     }
 }

@@ -9,9 +9,8 @@ public class Proprietario
         this.cognome=cognome;
         this.CodiceFiscale=CodiceFiscale;
     }
-    @Override
     public String toString()
     {
-        return super.toString();
+        return "Proprietario: " + nome +"," + cognome + "," + CodiceFiscale;
     }
 }
